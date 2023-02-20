@@ -42,8 +42,10 @@ var_dump($gioco);
                     <div class="card">
                         <img src="assets/cat_food.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title mb-1">Monge Grill Grain Free</h5>
+                            <i class="d-block mb-3"><strong>Categoria:</strong> Gatti - <strong>Caratteristiche:</strong> 85gr, salmone e proteine del latte</i>
+                            <p class="card-text">Monge Cat Grill 85 gr è il cibo umido in bustina da 85 gr in diversi gusti, grazie al quale il vostro felino riceverà ogni giorno tutto il benessere quotidiano del quale necessita. Le formulazioni sono altamente appetibili, con carne o pesce fresco scelto attentamente da esperti in materia.</p>
+                            <strong>Prezzo: € 25</strong>
                         </div>
                     </div>
                 </div>
