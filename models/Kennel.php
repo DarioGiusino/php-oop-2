@@ -14,4 +14,9 @@ class Kennel extends Product
         $this->measures = $measures;
         $this->color = $color;
     }
+
+    public function getDetails()
+    {
+        return "$this->measures cm, $this->color";
+    }
 }

@@ -12,4 +12,9 @@ class Toy extends Product
 
         $this->materials = $materials;
     }
+
+    public function getDetails()
+    {
+        return "$this->materials";
+    }
 }

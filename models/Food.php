@@ -4,7 +4,6 @@ require_once __DIR__ . '/Product.php';
 
 class Food extends Product
 {
-    public $category;
     public $weight;
     public $ingredients;
 
@@ -14,5 +13,10 @@ class Food extends Product
 
         $this->weight = $_weight;
         $this->ingredients = $_ingredients;
+    }
+
+    public function getDetails()
+    {
+        return "$this->weight gr, $this->ingredients";
     }
 }
