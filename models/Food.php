@@ -12,7 +12,6 @@ class Food extends Product
     {
         parent::__construct($_label, $_description, $_category, $_price);
 
-        $this->category = $_category;
         $this->weight = $_weight;
         $this->ingredients = $_ingredients;
     }

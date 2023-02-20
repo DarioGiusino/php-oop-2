@@ -2,12 +2,15 @@
 include_once __DIR__ . '/models/Product.php';
 include_once __DIR__ . '/models/Food.php';
 include_once __DIR__ . '/models/Kennel.php';
+include_once __DIR__ . '/models/Toy.php';
 
 $cibo = new Food('scatola di tonno', 'cibo a base di pesce', 'Cani', 10, '120g', 'pane, acqua');
 $cuccia = new Kennel('Cuccia Rodi', 'cuccia rettangolare', 'Gatti', 29, '15x17cm', 'red');
+$gioco = new Toy('pallina', 'pallina rotonda', 'Topi', 12, 'plastica e metallo');
 
 var_dump($cibo);
 var_dump($cuccia);
+var_dump($gioco);
 
 ?>
 
