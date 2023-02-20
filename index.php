@@ -30,7 +30,7 @@ include_once __DIR__ . '/data/data.php';
                                 <h5 class="card-title mb-1"><?= $product->label ?></h5>
                                 <i class="d-block mb-3"><strong>Categoria:</strong> <?= $product->category->name ?> - <strong>Caratteristiche:</strong> <?= $product->getDetails() ?></i>
                                 <p class="card-text"><?= $product->description ?></p>
-                                <strong>Prezzo: € <?= $product->price ?></strong>
+                                <strong>Prezzo: € <?= $product->getPrice() ?></strong>
                             </div>
                         </div>
                     </div>
