@@ -1,10 +1,13 @@
 <?php
 include_once __DIR__ . '/models/Product.php';
 include_once __DIR__ . '/models/Food.php';
+include_once __DIR__ . '/models/Kennel.php';
 
-$prodotto = new Food('scatola di tonno', 'cibo a base di pesce', 'Cani', 10, '120g', 'pane, acqua');
+$cibo = new Food('scatola di tonno', 'cibo a base di pesce', 'Cani', 10, '120g', 'pane, acqua');
+$cuccia = new Kennel('Cuccia Rodi', 'cuccia rettangolare', 'Gatti', 29, '15x17cm', 'red');
 
-var_dump($prodotto);
+var_dump($cibo);
+var_dump($cuccia);
 
 ?>
 
