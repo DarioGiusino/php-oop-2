@@ -25,7 +25,7 @@ include_once __DIR__ . '/data/data.php';
                 <?php foreach ($products as $product) : ?>
                     <div class="col mb-4">
                         <div class="card">
-                            <img src="assets/cat_food.png" class="card-img-top" alt="...">
+                            <img src="<?= $product->image ?>" class="card-img-top" alt="<?= $product->label ?>">
                             <div class="card-body">
                                 <h5 class="card-title mb-1"><?= $product->label ?></h5>
                                 <i class="d-block mb-3"><strong>Categoria:</strong> <?= $product->category->name ?> - <strong>Caratteristiche:</strong> <?= $product->getDetails() ?></i>
