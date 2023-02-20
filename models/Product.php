@@ -1,5 +1,7 @@
 <?php
 
+require_once __DIR__ . '/Category.php';
+
 class Product
 {
     public $image;
@@ -8,7 +10,7 @@ class Product
     public $category;
     public $price;
 
-    public function __construct($_label, $_description, $_category, $_price, $_image = null)
+    public function __construct($_label, $_description, Category $_category, $_price, $_image = null)
     {
         $this->label = $_label;
         $this->description = $_description;
